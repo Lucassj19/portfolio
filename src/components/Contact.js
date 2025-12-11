@@ -42,10 +42,10 @@ const Contact = () => {
       icon: '✉'
     },
     {
-      title: 'Telefone',
-      value: '+55 (48) 98880-0807',
-      link: 'tel:+5548988800807',
-      icon: '📱'
+      title: 'WhatsApp',
+      value: 'Enviar mensagem',
+      link: 'https://wa.me/5548988800807?text=Olá!%20Vi%20seu%20portfólio',  // ← Link do WhatsApp
+      icon: '💬'
     },
     {
       title: 'Localização',

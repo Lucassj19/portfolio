@@ -5,8 +5,6 @@ import './About.css';
 const About = () => {
   const stats = [
     { number: '2+', label: 'Anos de Experiência' },
-    { number: '5+', label: 'Projetos Concluídos' },
-    { number: '5+', label: 'Tecnologias' }
   ];
 
   return (

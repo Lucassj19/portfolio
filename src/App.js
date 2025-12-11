@@ -16,7 +16,7 @@ function App() {
     setIsLoaded(true);
     
     const handleScroll = () => {
-      const sections = ['hero', 'about', 'projects', 'skills', 'contact'];
+      const sections = ['hero', 'about','education' ,'projects', 'skills', 'contact'];
       const scrollPosition = window.scrollY + window.innerHeight / 2;
 
       for (const section of sections) {

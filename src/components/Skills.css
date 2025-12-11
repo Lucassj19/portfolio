@@ -130,4 +130,27 @@
     grid-template-columns: 1fr;
     gap: var(--spacing-md);
   }
+  .skill-level.basic {
+    color: #ffa726;
+  }
+
+  .skill-level.intermediate {
+    color: #42a5f5;
+  }
+
+  .skill-level.advanced {
+    color: var(--color-accent);
+  }
+
+  .skill-bar-fill.basic {
+    background: linear-gradient(90deg, #ffa726 0%, rgba(255, 167, 38, 0.6) 100%);
+  }
+
+  .skill-bar-fill.intermediate {
+    background: linear-gradient(90deg, #42a5f5 0%, rgba(66, 165, 245, 0.6) 100%);
+  }
+
+  .skill-bar-fill.advanced {
+    background: linear-gradient(90deg, var(--color-accent) 0%, rgba(var(--color-accent-rgb), 0.6) 100%);
+  }
 }

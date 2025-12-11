@@ -47,12 +47,12 @@ function App() {
           <Hero />
         </section>
 
-        <section id="education">
-          <Education />
-        </section>
-
         <section id="about">
           <About />
+        </section>
+
+        <section id="education">
+          <Education />
         </section>
 
         <section id="skills">

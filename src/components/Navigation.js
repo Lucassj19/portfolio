@@ -4,11 +4,11 @@ import './Navigation.css';
 
 const Navigation = ({ activeSection }) => {
   const navItems = [
-    { id: 'hero', label: '00' },
-    { id: 'about', label: '01' },
+      { id: 'hero', label: '00' },
+      { id: 'about', label: '01' },
       { id: 'education', label: '02' },
-    { id: 'skills', label: '03' },
-    { id: 'contact', label: '04' }
+      { id: 'skills', label: '03' },
+      { id: 'contact', label: '04' }
   ];
 
   const scrollToSection = (id) => {

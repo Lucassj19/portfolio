@@ -1,39 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import './Contact.css';
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
-
-  const [status, setStatus] = useState('');
-
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    
-    // Simulação de envio
-    setStatus('sending');
-    
-    setTimeout(() => {
-      setStatus('success');
-      setFormData({ name: '', email: '', message: '' });
-      
-      setTimeout(() => {
-        setStatus('');
-      }, 3000);
-    }, 1500);
-  };
-
   const contactInfo = [
     {
       title: 'Lucas',
@@ -44,7 +13,7 @@ const Contact = () => {
     {
       title: 'WhatsApp',
       value: 'Enviar mensagem',
-      link: 'https://wa.me/5548988800807?text=Olá!%20Vi%20seu%20portfólio',  // ← Link do WhatsApp
+      link: 'https://wa.me/5548988800807?text=Olá!%20Vi%20seu%20portfólio',
       icon: '💬'
     },
     {
@@ -83,7 +52,7 @@ const Contact = () => {
           <div className="contact-grid">
             <div className="contact-info">
               <p className="contact-description">
-                Estou sempre aberto a discutir novos projetos, ideias criativas ou 
+                Estou sempre aberto a discutir novos projetos, ideias criativas ou
                 oportunidades de fazer parte da sua visão. Entre em contato!
               </p>
 

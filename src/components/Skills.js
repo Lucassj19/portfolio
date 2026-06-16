@@ -17,6 +17,7 @@ const Skills = () => {
       skills: [
         { name: 'Node.js', level: 'Básico' },
         { name: 'Java', level: 'Intermediário' },
+        { name: 'Spring Boot', level: 'Intermediário' },
         { name: 'Oracle DB', level: 'Básico' },
         { name: 'REST APIs', level: 'Básico' }
       ]
@@ -125,10 +126,7 @@ const Skills = () => {
               <div className="extras-section">
                 <h4 className="extras-title">Metodologias</h4>
                 <div className="extras-tags">
-                  <span className="tag">Agile</span>
                   <span className="tag">Scrum</span>
-                  <span className="tag">TDD</span>
-                  <span className="tag">CI/CD</span>
                 </div>
               </div>
 

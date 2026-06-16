@@ -38,7 +38,7 @@ const Hero = () => {
       >
         <motion.div className="hero-label" variants={itemVariants}>
           <span className="label-line"></span>
-          <span>Desenvolvedor Jr.</span>
+          <span>JAVA BACKEND DEVELOPER</span>
         </motion.div>
 
         <motion.h1 className="hero-title" variants={itemVariants}>
@@ -51,7 +51,7 @@ const Hero = () => {
 
         <motion.p className="hero-description" variants={itemVariants}>
           Desenvolvedor apaixonado por transformar ideias em código limpo e funcional.
-          Linguagens - Java - React - Node Js
+          Linguagens - Java & Spring Boot - React - Node Js
         </motion.p>
 
         <motion.div className="hero-actions" variants={itemVariants}>
